@@ -1,0 +1,3540 @@
+{
+  "RollingWindow": {
+    "M1_20210131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "0.5760",
+        "TrackingError": "0.1339",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M1_20210228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-1.0619",
+        "TrackingError": "0.1114",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M1_20210331": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-1.5642",
+        "TrackingError": "0.1256",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M3_20210131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "0.5760",
+        "TrackingError": "0.1339",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M3_20210228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.6957",
+        "TrackingError": "0.1256",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M3_20210331": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-1.5446",
+        "TrackingError": "0.1298",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M6_20210131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "0.5760",
+        "TrackingError": "0.1339",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M6_20210228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.6957",
+        "TrackingError": "0.1256",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M6_20210331": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-1.5446",
+        "TrackingError": "0.1298",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M12_20210131": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "0.5760",
+        "TrackingError": "0.1339",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M12_20210228": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-0.6957",
+        "TrackingError": "0.1256",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    },
+    "M12_20210331": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": "0",
+        "TotalProfit": "0",
+        "TotalLoss": "0",
+        "LargestProfit": "0",
+        "LargestLoss": "0",
+        "AverageProfitLoss": "0",
+        "AverageProfit": "0",
+        "AverageLoss": "0",
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MedianTradeDuration": "00:00:00",
+        "MedianWinningTradeDuration": "00:00:00",
+        "MedianLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": "0",
+        "WinLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "AverageMAE": "0",
+        "AverageMFE": "0",
+        "LargestMAE": "0",
+        "LargestMFE": "0",
+        "MaximumClosedTradeDrawdown": "0",
+        "MaximumIntraTradeDrawdown": "0",
+        "ProfitLossStandardDeviation": "0",
+        "ProfitLossDownsideDeviation": "0",
+        "ProfitFactor": "0",
+        "SharpeRatio": "0",
+        "SortinoRatio": "0",
+        "ProfitToMaxDrawdownRatio": "0",
+        "MaximumEndTradeDrawdown": "0",
+        "AverageEndTradeDrawdown": "0",
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": "0"
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": "0",
+        "AverageLossRate": "0",
+        "ProfitLossRatio": "0",
+        "WinRate": "0",
+        "LossRate": "0",
+        "Expectancy": "0",
+        "CompoundingAnnualReturn": "0",
+        "Drawdown": "0",
+        "TotalNetProfit": "0",
+        "SharpeRatio": "0",
+        "ProbabilisticSharpeRatio": "0",
+        "Alpha": "0",
+        "Beta": "0",
+        "AnnualStandardDeviation": "0",
+        "AnnualVariance": "0",
+        "InformationRatio": "-1.5446",
+        "TrackingError": "0.1298",
+        "TreynorRatio": "0"
+      },
+      "ClosedTrades": []
+    }
+  },
+  "TotalPerformance": {
+    "TradeStatistics": {
+      "StartDateTime": null,
+      "EndDateTime": null,
+      "TotalNumberOfTrades": 0,
+      "NumberOfWinningTrades": 0,
+      "NumberOfLosingTrades": 0,
+      "TotalProfitLoss": "0",
+      "TotalProfit": "0",
+      "TotalLoss": "0",
+      "LargestProfit": "0",
+      "LargestLoss": "0",
+      "AverageProfitLoss": "0",
+      "AverageProfit": "0",
+      "AverageLoss": "0",
+      "AverageTradeDuration": "00:00:00",
+      "AverageWinningTradeDuration": "00:00:00",
+      "AverageLosingTradeDuration": "00:00:00",
+      "MedianTradeDuration": "00:00:00",
+      "MedianWinningTradeDuration": "00:00:00",
+      "MedianLosingTradeDuration": "00:00:00",
+      "MaxConsecutiveWinningTrades": 0,
+      "MaxConsecutiveLosingTrades": 0,
+      "ProfitLossRatio": "0",
+      "WinLossRatio": "0",
+      "WinRate": "0",
+      "LossRate": "0",
+      "AverageMAE": "0",
+      "AverageMFE": "0",
+      "LargestMAE": "0",
+      "LargestMFE": "0",
+      "MaximumClosedTradeDrawdown": "0",
+      "MaximumIntraTradeDrawdown": "0",
+      "ProfitLossStandardDeviation": "0",
+      "ProfitLossDownsideDeviation": "0",
+      "ProfitFactor": "0",
+      "SharpeRatio": "0",
+      "SortinoRatio": "0",
+      "ProfitToMaxDrawdownRatio": "0",
+      "MaximumEndTradeDrawdown": "0",
+      "AverageEndTradeDrawdown": "0",
+      "MaximumDrawdownDuration": "00:00:00",
+      "TotalFees": "0"
+    },
+    "PortfolioStatistics": {
+      "AverageWinRate": "0",
+      "AverageLossRate": "0",
+      "ProfitLossRatio": "0",
+      "WinRate": "0",
+      "LossRate": "0",
+      "Expectancy": "0",
+      "CompoundingAnnualReturn": "0",
+      "Drawdown": "0",
+      "TotalNetProfit": "0",
+      "SharpeRatio": "0",
+      "ProbabilisticSharpeRatio": "0",
+      "Alpha": "0",
+      "Beta": "0",
+      "AnnualStandardDeviation": "0",
+      "AnnualVariance": "0",
+      "InformationRatio": "-1.5446",
+      "TrackingError": "0.1298",
+      "TreynorRatio": "0"
+    },
+    "ClosedTrades": []
+  },
+  "AlphaRuntimeStatistics": {
+    "MeanPopulationScore": {
+      "UpdatedTimeUtc": "0001-01-01T00:00:00",
+      "Direction": 0.0,
+      "Magnitude": 0.0,
+      "IsFinalScore": false
+    },
+    "RollingAveragedPopulationScore": {
+      "UpdatedTimeUtc": "0001-01-01T00:00:00",
+      "Direction": 0.0,
+      "Magnitude": 0.0,
+      "IsFinalScore": false
+    },
+    "LongShortRatio": 1.0,
+    "ReturnOverMaxDrawdown": "79228162514264337593543950335",
+    "SortinoRatio": "79228162514264337593543950335"
+  },
+  "Charts": {
+    "Benchmark": {
+      "Name": "Benchmark",
+      "ChartType": 0,
+      "Series": {
+        "Benchmark": {
+          "Name": "Benchmark",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1609477200,
+              "y": 372.6597
+            },
+            {
+              "x": 1609563600,
+              "y": 372.6597
+            },
+            {
+              "x": 1609650000,
+              "y": 372.6597
+            },
+            {
+              "x": 1609736400,
+              "y": 372.6597
+            },
+            {
+              "x": 1609822800,
+              "y": 367.5863
+            },
+            {
+              "x": 1609909200,
+              "y": 370.118
+            },
+            {
+              "x": 1609995600,
+              "y": 372.3307
+            },
+            {
+              "x": 1610082000,
+              "y": 377.8626
+            },
+            {
+              "x": 1610168400,
+              "y": 380.0156
+            },
+            {
+              "x": 1610254800,
+              "y": 380.0156
+            },
+            {
+              "x": 1610341200,
+              "y": 380.0156
+            },
+            {
+              "x": 1610427600,
+              "y": 377.454
+            },
+            {
+              "x": 1610514000,
+              "y": 377.5337
+            },
+            {
+              "x": 1610600400,
+              "y": 378.5504
+            },
+            {
+              "x": 1610686800,
+              "y": 377.2247
+            },
+            {
+              "x": 1610773200,
+              "y": 374.4737
+            },
+            {
+              "x": 1610859600,
+              "y": 374.4737
+            },
+            {
+              "x": 1610946000,
+              "y": 374.4737
+            },
+            {
+              "x": 1611032400,
+              "y": 374.4737
+            },
+            {
+              "x": 1611118800,
+              "y": 377.4141
+            },
+            {
+              "x": 1611205200,
+              "y": 382.637
+            },
+            {
+              "x": 1611291600,
+              "y": 382.9858
+            },
+            {
+              "x": 1611378000,
+              "y": 381.6303
+            },
+            {
+              "x": 1611464400,
+              "y": 381.6303
+            },
+            {
+              "x": 1611550800,
+              "y": 381.6303
+            },
+            {
+              "x": 1611637200,
+              "y": 383.1354
+            },
+            {
+              "x": 1611723600,
+              "y": 382.5373
+            },
+            {
+              "x": 1611810000,
+              "y": 373.1879
+            },
+            {
+              "x": 1611896400,
+              "y": 376.3974
+            },
+            {
+              "x": 1611982800,
+              "y": 368.8621
+            },
+            {
+              "x": 1612069200,
+              "y": 368.8621
+            },
+            {
+              "x": 1612155600,
+              "y": 368.8621
+            },
+            {
+              "x": 1612242000,
+              "y": 375.002
+            },
+            {
+              "x": 1612328400,
+              "y": 380.3046
+            },
+            {
+              "x": 1612414800,
+              "y": 380.6036
+            },
+            {
+              "x": 1612501200,
+              "y": 384.9295
+            },
+            {
+              "x": 1612587600,
+              "y": 386.4445
+            },
+            {
+              "x": 1612674000,
+              "y": 386.4445
+            },
+            {
+              "x": 1612760400,
+              "y": 386.4445
+            },
+            {
+              "x": 1612846800,
+              "y": 389.2354
+            },
+            {
+              "x": 1612933200,
+              "y": 388.9762
+            },
+            {
+              "x": 1613019600,
+              "y": 388.8068
+            },
+            {
+              "x": 1613106000,
+              "y": 389.4347
+            },
+            {
+              "x": 1613192400,
+              "y": 391.3584
+            },
+            {
+              "x": 1613278800,
+              "y": 391.3584
+            },
+            {
+              "x": 1613365200,
+              "y": 391.3584
+            },
+            {
+              "x": 1613451600,
+              "y": 391.3584
+            },
+            {
+              "x": 1613538000,
+              "y": 391.0195
+            },
+            {
+              "x": 1613624400,
+              "y": 391.1092
+            },
+            {
+              "x": 1613710800,
+              "y": 389.4447
+            },
+            {
+              "x": 1613797200,
+              "y": 388.7569
+            },
+            {
+              "x": 1613883600,
+              "y": 388.7569
+            },
+            {
+              "x": 1613970000,
+              "y": 388.7569
+            },
+            {
+              "x": 1614056400,
+              "y": 385.7667
+            },
+            {
+              "x": 1614142800,
+              "y": 386.2352
+            },
+            {
+              "x": 1614229200,
+              "y": 390.4913
+            },
+            {
+              "x": 1614315600,
+              "y": 381.0821
+            },
+            {
+              "x": 1614402000,
+              "y": 379.1185
+            },
+            {
+              "x": 1614488400,
+              "y": 379.1185
+            },
+            {
+              "x": 1614574800,
+              "y": 379.1185
+            },
+            {
+              "x": 1614661200,
+              "y": 388.3084
+            },
+            {
+              "x": 1614747600,
+              "y": 385.2783
+            },
+            {
+              "x": 1614834000,
+              "y": 380.175
+            },
+            {
+              "x": 1614920400,
+              "y": 375.4705
+            },
+            {
+              "x": 1615006800,
+              "y": 382.3778
+            },
+            {
+              "x": 1615093200,
+              "y": 382.3778
+            },
+            {
+              "x": 1615179600,
+              "y": 382.3778
+            },
+            {
+              "x": 1615266000,
+              "y": 380.4741
+            },
+            {
+              "x": 1615352400,
+              "y": 385.9063
+            },
+            {
+              "x": 1615438800,
+              "y": 388.3084
+            },
+            {
+              "x": 1615525200,
+              "y": 392.2455
+            },
+            {
+              "x": 1615611600,
+              "y": 392.7738
+            },
+            {
+              "x": 1615698000,
+              "y": 392.7738
+            },
+            {
+              "x": 1615780800,
+              "y": 392.7738
+            },
+            {
+              "x": 1615867200,
+              "y": 395.1161
+            },
+            {
+              "x": 1615953600,
+              "y": 394.6177
+            },
+            {
+              "x": 1616040000,
+              "y": 395.9633
+            },
+            {
+              "x": 1616126400,
+              "y": 390.2022
+            },
+            {
+              "x": 1616212800,
+              "y": 389.48
+            },
+            {
+              "x": 1616299200,
+              "y": 389.48
+            },
+            {
+              "x": 1616385600,
+              "y": 389.48
+            },
+            {
+              "x": 1616472000,
+              "y": 392.59
+            },
+            {
+              "x": 1616558400,
+              "y": 389.5
+            },
+            {
+              "x": 1616644800,
+              "y": 387.52
+            },
+            {
+              "x": 1616731200,
+              "y": 389.7
+            },
+            {
+              "x": 1616817600,
+              "y": 395.98
+            },
+            {
+              "x": 1616904000,
+              "y": 395.98
+            },
+            {
+              "x": 1616990400,
+              "y": 395.98
+            },
+            {
+              "x": 1617076800,
+              "y": 395.78
+            },
+            {
+              "x": 1617163200,
+              "y": 394.73
+            },
+            {
+              "x": 1617220800,
+              "y": 396.33
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Drawdown": {
+      "Name": "Drawdown",
+      "ChartType": 0,
+      "Series": {
+        "Equity Drawdown": {
+          "Name": "Equity Drawdown",
+          "Unit": "%",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1609477200,
+              "y": 0.0
+            },
+            {
+              "x": 1609563600,
+              "y": 0.0
+            },
+            {
+              "x": 1609650000,
+              "y": 0.0
+            },
+            {
+              "x": 1609736400,
+              "y": 0.0
+            },
+            {
+              "x": 1609822800,
+              "y": 0.0
+            },
+            {
+              "x": 1609909200,
+              "y": 0.0
+            },
+            {
+              "x": 1609995600,
+              "y": 0.0
+            },
+            {
+              "x": 1610082000,
+              "y": 0.0
+            },
+            {
+              "x": 1610168400,
+              "y": 0.0
+            },
+            {
+              "x": 1610254800,
+              "y": 0.0
+            },
+            {
+              "x": 1610341200,
+              "y": 0.0
+            },
+            {
+              "x": 1610427600,
+              "y": 0.0
+            },
+            {
+              "x": 1610514000,
+              "y": 0.0
+            },
+            {
+              "x": 1610600400,
+              "y": 0.0
+            },
+            {
+              "x": 1610686800,
+              "y": 0.0
+            },
+            {
+              "x": 1610773200,
+              "y": 0.0
+            },
+            {
+              "x": 1610859600,
+              "y": 0.0
+            },
+            {
+              "x": 1610946000,
+              "y": 0.0
+            },
+            {
+              "x": 1611032400,
+              "y": 0.0
+            },
+            {
+              "x": 1611118800,
+              "y": 0.0
+            },
+            {
+              "x": 1611205200,
+              "y": 0.0
+            },
+            {
+              "x": 1611291600,
+              "y": 0.0
+            },
+            {
+              "x": 1611378000,
+              "y": 0.0
+            },
+            {
+              "x": 1611464400,
+              "y": 0.0
+            },
+            {
+              "x": 1611550800,
+              "y": 0.0
+            },
+            {
+              "x": 1611637200,
+              "y": 0.0
+            },
+            {
+              "x": 1611723600,
+              "y": 0.0
+            },
+            {
+              "x": 1611810000,
+              "y": 0.0
+            },
+            {
+              "x": 1611896400,
+              "y": 0.0
+            },
+            {
+              "x": 1611982800,
+              "y": 0.0
+            },
+            {
+              "x": 1612069200,
+              "y": 0.0
+            },
+            {
+              "x": 1612155600,
+              "y": 0.0
+            },
+            {
+              "x": 1612242000,
+              "y": 0.0
+            },
+            {
+              "x": 1612328400,
+              "y": 0.0
+            },
+            {
+              "x": 1612414800,
+              "y": 0.0
+            },
+            {
+              "x": 1612501200,
+              "y": 0.0
+            },
+            {
+              "x": 1612587600,
+              "y": 0.0
+            },
+            {
+              "x": 1612674000,
+              "y": 0.0
+            },
+            {
+              "x": 1612760400,
+              "y": 0.0
+            },
+            {
+              "x": 1612846800,
+              "y": 0.0
+            },
+            {
+              "x": 1612933200,
+              "y": 0.0
+            },
+            {
+              "x": 1613019600,
+              "y": 0.0
+            },
+            {
+              "x": 1613106000,
+              "y": 0.0
+            },
+            {
+              "x": 1613192400,
+              "y": 0.0
+            },
+            {
+              "x": 1613278800,
+              "y": 0.0
+            },
+            {
+              "x": 1613365200,
+              "y": 0.0
+            },
+            {
+              "x": 1613451600,
+              "y": 0.0
+            },
+            {
+              "x": 1613538000,
+              "y": 0.0
+            },
+            {
+              "x": 1613624400,
+              "y": 0.0
+            },
+            {
+              "x": 1613710800,
+              "y": 0.0
+            },
+            {
+              "x": 1613797200,
+              "y": 0.0
+            },
+            {
+              "x": 1613883600,
+              "y": 0.0
+            },
+            {
+              "x": 1613970000,
+              "y": 0.0
+            },
+            {
+              "x": 1614056400,
+              "y": 0.0
+            },
+            {
+              "x": 1614142800,
+              "y": 0.0
+            },
+            {
+              "x": 1614229200,
+              "y": 0.0
+            },
+            {
+              "x": 1614315600,
+              "y": 0.0
+            },
+            {
+              "x": 1614402000,
+              "y": 0.0
+            },
+            {
+              "x": 1614488400,
+              "y": 0.0
+            },
+            {
+              "x": 1614574800,
+              "y": 0.0
+            },
+            {
+              "x": 1614661200,
+              "y": 0.0
+            },
+            {
+              "x": 1614747600,
+              "y": 0.0
+            },
+            {
+              "x": 1614834000,
+              "y": 0.0
+            },
+            {
+              "x": 1614920400,
+              "y": 0.0
+            },
+            {
+              "x": 1615006800,
+              "y": 0.0
+            },
+            {
+              "x": 1615093200,
+              "y": 0.0
+            },
+            {
+              "x": 1615179600,
+              "y": 0.0
+            },
+            {
+              "x": 1615266000,
+              "y": 0.0
+            },
+            {
+              "x": 1615352400,
+              "y": 0.0
+            },
+            {
+              "x": 1615438800,
+              "y": 0.0
+            },
+            {
+              "x": 1615525200,
+              "y": 0.0
+            },
+            {
+              "x": 1615611600,
+              "y": 0.0
+            },
+            {
+              "x": 1615698000,
+              "y": 0.0
+            },
+            {
+              "x": 1615780800,
+              "y": 0.0
+            },
+            {
+              "x": 1615867200,
+              "y": 0.0
+            },
+            {
+              "x": 1615953600,
+              "y": 0.0
+            },
+            {
+              "x": 1616040000,
+              "y": 0.0
+            },
+            {
+              "x": 1616126400,
+              "y": 0.0
+            },
+            {
+              "x": 1616212800,
+              "y": 0.0
+            },
+            {
+              "x": 1616299200,
+              "y": 0.0
+            },
+            {
+              "x": 1616385600,
+              "y": 0.0
+            },
+            {
+              "x": 1616472000,
+              "y": 0.0
+            },
+            {
+              "x": 1616558400,
+              "y": 0.0
+            },
+            {
+              "x": 1616644800,
+              "y": 0.0
+            },
+            {
+              "x": 1616731200,
+              "y": 0.0
+            },
+            {
+              "x": 1616817600,
+              "y": 0.0
+            },
+            {
+              "x": 1616904000,
+              "y": 0.0
+            },
+            {
+              "x": 1616990400,
+              "y": 0.0
+            },
+            {
+              "x": 1617076800,
+              "y": 0.0
+            },
+            {
+              "x": 1617163200,
+              "y": 0.0
+            },
+            {
+              "x": 1617220800,
+              "y": 0.0
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Strategy Equity": {
+      "Name": "Strategy Equity",
+      "ChartType": 0,
+      "Series": {
+        "Equity": {
+          "Name": "Equity",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1609477200,
+              "y": 100000.0
+            },
+            {
+              "x": 1609563600,
+              "y": 100000.0
+            },
+            {
+              "x": 1609650000,
+              "y": 100000.0
+            },
+            {
+              "x": 1609736400,
+              "y": 100000.0
+            },
+            {
+              "x": 1609772400,
+              "y": 100000.0
+            },
+            {
+              "x": 1609783200,
+              "y": 100000.0
+            },
+            {
+              "x": 1609794000,
+              "y": 100000.0
+            },
+            {
+              "x": 1609822800,
+              "y": 100000.0
+            },
+            {
+              "x": 1609858800,
+              "y": 100000.0
+            },
+            {
+              "x": 1609869600,
+              "y": 100000.0
+            },
+            {
+              "x": 1609880400,
+              "y": 100000.0
+            },
+            {
+              "x": 1609909200,
+              "y": 100000.0
+            },
+            {
+              "x": 1609945200,
+              "y": 100000.0
+            },
+            {
+              "x": 1609956000,
+              "y": 100000.0
+            },
+            {
+              "x": 1609966800,
+              "y": 100000.0
+            },
+            {
+              "x": 1609995600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610031600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610042400,
+              "y": 100000.0
+            },
+            {
+              "x": 1610053200,
+              "y": 100000.0
+            },
+            {
+              "x": 1610082000,
+              "y": 100000.0
+            },
+            {
+              "x": 1610118000,
+              "y": 100000.0
+            },
+            {
+              "x": 1610128800,
+              "y": 100000.0
+            },
+            {
+              "x": 1610139600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610168400,
+              "y": 100000.0
+            },
+            {
+              "x": 1610254800,
+              "y": 100000.0
+            },
+            {
+              "x": 1610341200,
+              "y": 100000.0
+            },
+            {
+              "x": 1610377200,
+              "y": 100000.0
+            },
+            {
+              "x": 1610388000,
+              "y": 100000.0
+            },
+            {
+              "x": 1610398800,
+              "y": 100000.0
+            },
+            {
+              "x": 1610427600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610463600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610474400,
+              "y": 100000.0
+            },
+            {
+              "x": 1610485200,
+              "y": 100000.0
+            },
+            {
+              "x": 1610514000,
+              "y": 100000.0
+            },
+            {
+              "x": 1610550000,
+              "y": 100000.0
+            },
+            {
+              "x": 1610560800,
+              "y": 100000.0
+            },
+            {
+              "x": 1610571600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610600400,
+              "y": 100000.0
+            },
+            {
+              "x": 1610636400,
+              "y": 100000.0
+            },
+            {
+              "x": 1610647200,
+              "y": 100000.0
+            },
+            {
+              "x": 1610658000,
+              "y": 100000.0
+            },
+            {
+              "x": 1610686800,
+              "y": 100000.0
+            },
+            {
+              "x": 1610722800,
+              "y": 100000.0
+            },
+            {
+              "x": 1610733600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610744400,
+              "y": 100000.0
+            },
+            {
+              "x": 1610773200,
+              "y": 100000.0
+            },
+            {
+              "x": 1610859600,
+              "y": 100000.0
+            },
+            {
+              "x": 1610946000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611032400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611068400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611079200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611090000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611118800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611154800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611165600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611176400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611205200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611241200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611252000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611262800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611291600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611327600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611338400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611349200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611378000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611464400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611550800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611586800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611597600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611608400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611637200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611673200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611684000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611694800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611723600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611759600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611770400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611781200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611810000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611846000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611856800,
+              "y": 100000.0
+            },
+            {
+              "x": 1611867600,
+              "y": 100000.0
+            },
+            {
+              "x": 1611896400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611932400,
+              "y": 100000.0
+            },
+            {
+              "x": 1611943200,
+              "y": 100000.0
+            },
+            {
+              "x": 1611954000,
+              "y": 100000.0
+            },
+            {
+              "x": 1611982800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612069200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612155600,
+              "y": 100000.0
+            },
+            {
+              "x": 1612191600,
+              "y": 100000.0
+            },
+            {
+              "x": 1612202400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612213200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612242000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612278000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612288800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612299600,
+              "y": 100000.0
+            },
+            {
+              "x": 1612328400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612364400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612375200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612386000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612414800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612450800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612461600,
+              "y": 100000.0
+            },
+            {
+              "x": 1612472400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612501200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612537200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612548000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612558800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612587600,
+              "y": 100000.0
+            },
+            {
+              "x": 1612674000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612760400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612796400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612807200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612818000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612846800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612882800,
+              "y": 100000.0
+            },
+            {
+              "x": 1612893600,
+              "y": 100000.0
+            },
+            {
+              "x": 1612904400,
+              "y": 100000.0
+            },
+            {
+              "x": 1612933200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612969200,
+              "y": 100000.0
+            },
+            {
+              "x": 1612980000,
+              "y": 100000.0
+            },
+            {
+              "x": 1612990800,
+              "y": 100000.0
+            },
+            {
+              "x": 1613019600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613055600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613066400,
+              "y": 100000.0
+            },
+            {
+              "x": 1613077200,
+              "y": 100000.0
+            },
+            {
+              "x": 1613106000,
+              "y": 100000.0
+            },
+            {
+              "x": 1613142000,
+              "y": 100000.0
+            },
+            {
+              "x": 1613152800,
+              "y": 100000.0
+            },
+            {
+              "x": 1613163600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613192400,
+              "y": 100000.0
+            },
+            {
+              "x": 1613278800,
+              "y": 100000.0
+            },
+            {
+              "x": 1613365200,
+              "y": 100000.0
+            },
+            {
+              "x": 1613451600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613487600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613498400,
+              "y": 100000.0
+            },
+            {
+              "x": 1613509200,
+              "y": 100000.0
+            },
+            {
+              "x": 1613538000,
+              "y": 100000.0
+            },
+            {
+              "x": 1613574000,
+              "y": 100000.0
+            },
+            {
+              "x": 1613584800,
+              "y": 100000.0
+            },
+            {
+              "x": 1613595600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613624400,
+              "y": 100000.0
+            },
+            {
+              "x": 1613660400,
+              "y": 100000.0
+            },
+            {
+              "x": 1613671200,
+              "y": 100000.0
+            },
+            {
+              "x": 1613682000,
+              "y": 100000.0
+            },
+            {
+              "x": 1613710800,
+              "y": 100000.0
+            },
+            {
+              "x": 1613746800,
+              "y": 100000.0
+            },
+            {
+              "x": 1613757600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613768400,
+              "y": 100000.0
+            },
+            {
+              "x": 1613797200,
+              "y": 100000.0
+            },
+            {
+              "x": 1613883600,
+              "y": 100000.0
+            },
+            {
+              "x": 1613970000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614006000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614016800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614027600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614056400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614092400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614103200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614114000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614142800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614178800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614189600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614200400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614229200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614265200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614276000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614286800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614315600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614351600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614362400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614373200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614402000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614488400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614574800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614610800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614621600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614632400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614661200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614697200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614708000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614718800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614747600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614783600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614794400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614805200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614834000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614870000,
+              "y": 100000.0
+            },
+            {
+              "x": 1614880800,
+              "y": 100000.0
+            },
+            {
+              "x": 1614891600,
+              "y": 100000.0
+            },
+            {
+              "x": 1614920400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614956400,
+              "y": 100000.0
+            },
+            {
+              "x": 1614967200,
+              "y": 100000.0
+            },
+            {
+              "x": 1614978000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615006800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615093200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615179600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615215600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615226400,
+              "y": 100000.0
+            },
+            {
+              "x": 1615237200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615266000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615302000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615312800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615323600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615352400,
+              "y": 100000.0
+            },
+            {
+              "x": 1615388400,
+              "y": 100000.0
+            },
+            {
+              "x": 1615399200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615410000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615438800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615474800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615485600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615496400,
+              "y": 100000.0
+            },
+            {
+              "x": 1615525200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615561200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615572000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615582800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615611600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615698000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615780800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615816800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615827600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615838400,
+              "y": 100000.0
+            },
+            {
+              "x": 1615867200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615903200,
+              "y": 100000.0
+            },
+            {
+              "x": 1615914000,
+              "y": 100000.0
+            },
+            {
+              "x": 1615924800,
+              "y": 100000.0
+            },
+            {
+              "x": 1615953600,
+              "y": 100000.0
+            },
+            {
+              "x": 1615989600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616000400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616011200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616040000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616076000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616086800,
+              "y": 100000.0
+            },
+            {
+              "x": 1616097600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616126400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616162400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616173200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616184000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616212800,
+              "y": 100000.0
+            },
+            {
+              "x": 1616299200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616385600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616421600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616432400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616443200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616472000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616508000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616518800,
+              "y": 100000.0
+            },
+            {
+              "x": 1616529600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616558400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616594400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616605200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616616000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616644800,
+              "y": 100000.0
+            },
+            {
+              "x": 1616680800,
+              "y": 100000.0
+            },
+            {
+              "x": 1616691600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616702400,
+              "y": 100000.0
+            },
+            {
+              "x": 1616731200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616767200,
+              "y": 100000.0
+            },
+            {
+              "x": 1616778000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616788800,
+              "y": 100000.0
+            },
+            {
+              "x": 1616817600,
+              "y": 100000.0
+            },
+            {
+              "x": 1616904000,
+              "y": 100000.0
+            },
+            {
+              "x": 1616990400,
+              "y": 100000.0
+            },
+            {
+              "x": 1617026400,
+              "y": 100000.0
+            },
+            {
+              "x": 1617037200,
+              "y": 100000.0
+            },
+            {
+              "x": 1617048000,
+              "y": 100000.0
+            },
+            {
+              "x": 1617076800,
+              "y": 100000.0
+            },
+            {
+              "x": 1617112800,
+              "y": 100000.0
+            },
+            {
+              "x": 1617123600,
+              "y": 100000.0
+            },
+            {
+              "x": 1617134400,
+              "y": 100000.0
+            },
+            {
+              "x": 1617163200,
+              "y": 100000.0
+            },
+            {
+              "x": 1617199200,
+              "y": 100000.0
+            },
+            {
+              "x": 1617210000,
+              "y": 100000.0
+            },
+            {
+              "x": 1617220800,
+              "y": 100000.0
+            }
+          ],
+          "SeriesType": 2,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        },
+        "Daily Performance": {
+          "Name": "Daily Performance",
+          "Unit": "%",
+          "Index": 1,
+          "Values": [
+            {
+              "x": 1609477200,
+              "y": 0.0
+            },
+            {
+              "x": 1609563600,
+              "y": 0.0
+            },
+            {
+              "x": 1609650000,
+              "y": 0.0
+            },
+            {
+              "x": 1609736400,
+              "y": 0.0
+            },
+            {
+              "x": 1609822800,
+              "y": 0.0
+            },
+            {
+              "x": 1609909200,
+              "y": 0.0
+            },
+            {
+              "x": 1609995600,
+              "y": 0.0
+            },
+            {
+              "x": 1610082000,
+              "y": 0.0
+            },
+            {
+              "x": 1610168400,
+              "y": 0.0
+            },
+            {
+              "x": 1610254800,
+              "y": 0.0
+            },
+            {
+              "x": 1610341200,
+              "y": 0.0
+            },
+            {
+              "x": 1610427600,
+              "y": 0.0
+            },
+            {
+              "x": 1610514000,
+              "y": 0.0
+            },
+            {
+              "x": 1610600400,
+              "y": 0.0
+            },
+            {
+              "x": 1610686800,
+              "y": 0.0
+            },
+            {
+              "x": 1610773200,
+              "y": 0.0
+            },
+            {
+              "x": 1610859600,
+              "y": 0.0
+            },
+            {
+              "x": 1610946000,
+              "y": 0.0
+            },
+            {
+              "x": 1611032400,
+              "y": 0.0
+            },
+            {
+              "x": 1611118800,
+              "y": 0.0
+            },
+            {
+              "x": 1611205200,
+              "y": 0.0
+            },
+            {
+              "x": 1611291600,
+              "y": 0.0
+            },
+            {
+              "x": 1611378000,
+              "y": 0.0
+            },
+            {
+              "x": 1611464400,
+              "y": 0.0
+            },
+            {
+              "x": 1611550800,
+              "y": 0.0
+            },
+            {
+              "x": 1611637200,
+              "y": 0.0
+            },
+            {
+              "x": 1611723600,
+              "y": 0.0
+            },
+            {
+              "x": 1611810000,
+              "y": 0.0
+            },
+            {
+              "x": 1611896400,
+              "y": 0.0
+            },
+            {
+              "x": 1611982800,
+              "y": 0.0
+            },
+            {
+              "x": 1612069200,
+              "y": 0.0
+            },
+            {
+              "x": 1612155600,
+              "y": 0.0
+            },
+            {
+              "x": 1612242000,
+              "y": 0.0
+            },
+            {
+              "x": 1612328400,
+              "y": 0.0
+            },
+            {
+              "x": 1612414800,
+              "y": 0.0
+            },
+            {
+              "x": 1612501200,
+              "y": 0.0
+            },
+            {
+              "x": 1612587600,
+              "y": 0.0
+            },
+            {
+              "x": 1612674000,
+              "y": 0.0
+            },
+            {
+              "x": 1612760400,
+              "y": 0.0
+            },
+            {
+              "x": 1612846800,
+              "y": 0.0
+            },
+            {
+              "x": 1612933200,
+              "y": 0.0
+            },
+            {
+              "x": 1613019600,
+              "y": 0.0
+            },
+            {
+              "x": 1613106000,
+              "y": 0.0
+            },
+            {
+              "x": 1613192400,
+              "y": 0.0
+            },
+            {
+              "x": 1613278800,
+              "y": 0.0
+            },
+            {
+              "x": 1613365200,
+              "y": 0.0
+            },
+            {
+              "x": 1613451600,
+              "y": 0.0
+            },
+            {
+              "x": 1613538000,
+              "y": 0.0
+            },
+            {
+              "x": 1613624400,
+              "y": 0.0
+            },
+            {
+              "x": 1613710800,
+              "y": 0.0
+            },
+            {
+              "x": 1613797200,
+              "y": 0.0
+            },
+            {
+              "x": 1613883600,
+              "y": 0.0
+            },
+            {
+              "x": 1613970000,
+              "y": 0.0
+            },
+            {
+              "x": 1614056400,
+              "y": 0.0
+            },
+            {
+              "x": 1614142800,
+              "y": 0.0
+            },
+            {
+              "x": 1614229200,
+              "y": 0.0
+            },
+            {
+              "x": 1614315600,
+              "y": 0.0
+            },
+            {
+              "x": 1614402000,
+              "y": 0.0
+            },
+            {
+              "x": 1614488400,
+              "y": 0.0
+            },
+            {
+              "x": 1614574800,
+              "y": 0.0
+            },
+            {
+              "x": 1614661200,
+              "y": 0.0
+            },
+            {
+              "x": 1614747600,
+              "y": 0.0
+            },
+            {
+              "x": 1614834000,
+              "y": 0.0
+            },
+            {
+              "x": 1614920400,
+              "y": 0.0
+            },
+            {
+              "x": 1615006800,
+              "y": 0.0
+            },
+            {
+              "x": 1615093200,
+              "y": 0.0
+            },
+            {
+              "x": 1615179600,
+              "y": 0.0
+            },
+            {
+              "x": 1615266000,
+              "y": 0.0
+            },
+            {
+              "x": 1615352400,
+              "y": 0.0
+            },
+            {
+              "x": 1615438800,
+              "y": 0.0
+            },
+            {
+              "x": 1615525200,
+              "y": 0.0
+            },
+            {
+              "x": 1615611600,
+              "y": 0.0
+            },
+            {
+              "x": 1615698000,
+              "y": 0.0
+            },
+            {
+              "x": 1615780800,
+              "y": 0.0
+            },
+            {
+              "x": 1615867200,
+              "y": 0.0
+            },
+            {
+              "x": 1615953600,
+              "y": 0.0
+            },
+            {
+              "x": 1616040000,
+              "y": 0.0
+            },
+            {
+              "x": 1616126400,
+              "y": 0.0
+            },
+            {
+              "x": 1616212800,
+              "y": 0.0
+            },
+            {
+              "x": 1616299200,
+              "y": 0.0
+            },
+            {
+              "x": 1616385600,
+              "y": 0.0
+            },
+            {
+              "x": 1616472000,
+              "y": 0.0
+            },
+            {
+              "x": 1616558400,
+              "y": 0.0
+            },
+            {
+              "x": 1616644800,
+              "y": 0.0
+            },
+            {
+              "x": 1616731200,
+              "y": 0.0
+            },
+            {
+              "x": 1616817600,
+              "y": 0.0
+            },
+            {
+              "x": 1616904000,
+              "y": 0.0
+            },
+            {
+              "x": 1616990400,
+              "y": 0.0
+            },
+            {
+              "x": 1617076800,
+              "y": 0.0
+            },
+            {
+              "x": 1617163200,
+              "y": 0.0
+            },
+            {
+              "x": 1617220800,
+              "y": 0.0
+            }
+          ],
+          "SeriesType": 3,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Capacity": {
+      "Name": "Capacity",
+      "ChartType": 0,
+      "Series": {
+        "Strategy Capacity": {
+          "Name": "Strategy Capacity",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1609477200,
+              "y": 0.0
+            },
+            {
+              "x": 1609563600,
+              "y": 0.0
+            },
+            {
+              "x": 1609650000,
+              "y": 0.0
+            },
+            {
+              "x": 1609736400,
+              "y": 0.0
+            },
+            {
+              "x": 1609822800,
+              "y": 0.0
+            },
+            {
+              "x": 1609909200,
+              "y": 0.0
+            },
+            {
+              "x": 1609995600,
+              "y": 0.0
+            },
+            {
+              "x": 1610082000,
+              "y": 0.0
+            },
+            {
+              "x": 1610168400,
+              "y": 0.0
+            },
+            {
+              "x": 1610254800,
+              "y": 0.0
+            },
+            {
+              "x": 1610341200,
+              "y": 0.0
+            },
+            {
+              "x": 1610427600,
+              "y": 0.0
+            },
+            {
+              "x": 1610514000,
+              "y": 0.0
+            },
+            {
+              "x": 1610600400,
+              "y": 0.0
+            },
+            {
+              "x": 1610686800,
+              "y": 0.0
+            },
+            {
+              "x": 1610773200,
+              "y": 0.0
+            },
+            {
+              "x": 1610859600,
+              "y": 0.0
+            },
+            {
+              "x": 1610946000,
+              "y": 0.0
+            },
+            {
+              "x": 1611032400,
+              "y": 0.0
+            },
+            {
+              "x": 1611118800,
+              "y": 0.0
+            },
+            {
+              "x": 1611205200,
+              "y": 0.0
+            },
+            {
+              "x": 1611291600,
+              "y": 0.0
+            },
+            {
+              "x": 1611378000,
+              "y": 0.0
+            },
+            {
+              "x": 1611464400,
+              "y": 0.0
+            },
+            {
+              "x": 1611550800,
+              "y": 0.0
+            },
+            {
+              "x": 1611637200,
+              "y": 0.0
+            },
+            {
+              "x": 1611723600,
+              "y": 0.0
+            },
+            {
+              "x": 1611810000,
+              "y": 0.0
+            },
+            {
+              "x": 1611896400,
+              "y": 0.0
+            },
+            {
+              "x": 1611982800,
+              "y": 0.0
+            },
+            {
+              "x": 1612069200,
+              "y": 0.0
+            },
+            {
+              "x": 1612155600,
+              "y": 0.0
+            },
+            {
+              "x": 1612242000,
+              "y": 0.0
+            },
+            {
+              "x": 1612328400,
+              "y": 0.0
+            },
+            {
+              "x": 1612414800,
+              "y": 0.0
+            },
+            {
+              "x": 1612501200,
+              "y": 0.0
+            },
+            {
+              "x": 1612587600,
+              "y": 0.0
+            },
+            {
+              "x": 1612674000,
+              "y": 0.0
+            },
+            {
+              "x": 1612760400,
+              "y": 0.0
+            },
+            {
+              "x": 1612846800,
+              "y": 0.0
+            },
+            {
+              "x": 1612933200,
+              "y": 0.0
+            },
+            {
+              "x": 1613019600,
+              "y": 0.0
+            },
+            {
+              "x": 1613106000,
+              "y": 0.0
+            },
+            {
+              "x": 1613192400,
+              "y": 0.0
+            },
+            {
+              "x": 1613278800,
+              "y": 0.0
+            },
+            {
+              "x": 1613365200,
+              "y": 0.0
+            },
+            {
+              "x": 1613451600,
+              "y": 0.0
+            },
+            {
+              "x": 1613538000,
+              "y": 0.0
+            },
+            {
+              "x": 1613624400,
+              "y": 0.0
+            },
+            {
+              "x": 1613710800,
+              "y": 0.0
+            },
+            {
+              "x": 1613797200,
+              "y": 0.0
+            },
+            {
+              "x": 1613883600,
+              "y": 0.0
+            },
+            {
+              "x": 1613970000,
+              "y": 0.0
+            },
+            {
+              "x": 1614056400,
+              "y": 0.0
+            },
+            {
+              "x": 1614142800,
+              "y": 0.0
+            },
+            {
+              "x": 1614229200,
+              "y": 0.0
+            },
+            {
+              "x": 1614315600,
+              "y": 0.0
+            },
+            {
+              "x": 1614402000,
+              "y": 0.0
+            },
+            {
+              "x": 1614488400,
+              "y": 0.0
+            },
+            {
+              "x": 1614574800,
+              "y": 0.0
+            },
+            {
+              "x": 1614661200,
+              "y": 0.0
+            },
+            {
+              "x": 1614747600,
+              "y": 0.0
+            },
+            {
+              "x": 1614834000,
+              "y": 0.0
+            },
+            {
+              "x": 1614920400,
+              "y": 0.0
+            },
+            {
+              "x": 1615006800,
+              "y": 0.0
+            },
+            {
+              "x": 1615093200,
+              "y": 0.0
+            },
+            {
+              "x": 1615179600,
+              "y": 0.0
+            },
+            {
+              "x": 1615266000,
+              "y": 0.0
+            },
+            {
+              "x": 1615352400,
+              "y": 0.0
+            },
+            {
+              "x": 1615438800,
+              "y": 0.0
+            },
+            {
+              "x": 1615525200,
+              "y": 0.0
+            },
+            {
+              "x": 1615611600,
+              "y": 0.0
+            },
+            {
+              "x": 1615698000,
+              "y": 0.0
+            },
+            {
+              "x": 1615780800,
+              "y": 0.0
+            },
+            {
+              "x": 1615867200,
+              "y": 0.0
+            },
+            {
+              "x": 1615953600,
+              "y": 0.0
+            },
+            {
+              "x": 1616040000,
+              "y": 0.0
+            },
+            {
+              "x": 1616126400,
+              "y": 0.0
+            },
+            {
+              "x": 1616212800,
+              "y": 0.0
+            },
+            {
+              "x": 1616299200,
+              "y": 0.0
+            },
+            {
+              "x": 1616385600,
+              "y": 0.0
+            },
+            {
+              "x": 1616472000,
+              "y": 0.0
+            },
+            {
+              "x": 1616558400,
+              "y": 0.0
+            },
+            {
+              "x": 1616644800,
+              "y": 0.0
+            },
+            {
+              "x": 1616731200,
+              "y": 0.0
+            },
+            {
+              "x": 1616817600,
+              "y": 0.0
+            },
+            {
+              "x": 1616904000,
+              "y": 0.0
+            },
+            {
+              "x": 1616990400,
+              "y": 0.0
+            },
+            {
+              "x": 1617076800,
+              "y": 0.0
+            },
+            {
+              "x": 1617163200,
+              "y": 0.0
+            },
+            {
+              "x": 1617220800,
+              "y": 0.0
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    }
+  },
+  "Orders": {},
+  "ProfitLoss": {},
+  "Statistics": {
+    "Total Trades": "0",
+    "Average Win": "0%",
+    "Average Loss": "0%",
+    "Compounding Annual Return": "0%",
+    "Drawdown": "0%",
+    "Expectancy": "0",
+    "Net Profit": "0%",
+    "Sharpe Ratio": "0",
+    "Probabilistic Sharpe Ratio": "0%",
+    "Loss Rate": "0%",
+    "Win Rate": "0%",
+    "Profit-Loss Ratio": "0",
+    "Alpha": "0",
+    "Beta": "0",
+    "Annual Standard Deviation": "0",
+    "Annual Variance": "0",
+    "Information Ratio": "-1.545",
+    "Tracking Error": "0.13",
+    "Treynor Ratio": "0",
+    "Total Fees": "$0.00",
+    "Estimated Strategy Capacity": "$0",
+    "Lowest Capacity Asset": ""
+  },
+  "RuntimeStatistics": {
+    "Probabilistic Sharpe Ratio": "0%",
+    "Unrealized": "$0.00",
+    "Fees": "-$0.00",
+    "Net Profit": "$0.00",
+    "Return": "0.00 %",
+    "Equity": "$100,000.00",
+    "Holdings": "$0.00",
+    "Volume": "$0.00",
+    "Capacity": "$0"
+  }
+}

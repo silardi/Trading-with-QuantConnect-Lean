@@ -1,0 +1,518 @@
+2022-04-12T20:00:57.4601078Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2022-04-12T20:00:57.5127359Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2022-04-12T20:00:57.5129154Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2022-04-12T20:00:57.5131854Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-F4R9TNG
+2022-04-12T20:00:57.5173238Z TRACE:: Engine.Main(): Started 8:00 PM
+2022-04-12T20:00:57.5189446Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2022-04-12T20:00:57.5295614Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2022-04-12T20:00:57.5724043Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2022-04-12T20:00:57.5726027Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2022-04-12T20:00:57.5727520Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2022-04-12T20:00:57.5765706Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2022-04-12T20:00:57.5770760Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2022-04-12T20:00:57.5829180Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2022-04-12T20:00:57.5840572Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2022-04-12T20:00:57.5923364Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2022-04-12T20:00:57.7907009Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2022-04-12T20:00:57.7937301Z TRACE:: PythonInitializer.Initialize(): start...
+2022-04-12T20:00:58.4724853Z TRACE:: PythonInitializer.Initialize(): ended
+2022-04-12T20:00:58.4748476Z TRACE:: AlgorithmPythonWrapper(): Python version 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:25:33) 
+[GCC 7.3.0]: Importing python module main
+2022-04-12T20:00:59.7605555Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2022-04-12T20:00:59.7665149Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2022-04-12T20:00:59.7721179Z TRACE:: Config.GetValue(): api-data-update-period - Using default value: 1
+2022-04-12T20:00:59.8610938Z TRACE:: Config.GetValue(): mute-python-library-logging - Using default value: True
+2022-04-12T20:00:59.8734591Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage/QCAlgorithm. StorageFileCount 100. StorageLimitMB 5
+2022-04-12T20:00:59.8844061Z TRACE:: BacktestingSetupHandler.Setup(): Setting up job: UID: 0, PID: 645020336, Version: 2.5.0.0, Source: WebIDE
+2022-04-12T20:00:59.8875991Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2022-04-12T20:00:59.9763877Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Symbol      Quantity    Conversion = Value in USD
+USD: $      100000.00 @       1.00 = $100000.0
+-------------------------------------------------
+CashBook Total Value:                $100000.0
+
+2022-04-12T20:00:59.9783740Z TRACE:: SetUp Backtesting: User: 0 ProjectId: 645020336 AlgoId: 1824590122
+2022-04-12T20:00:59.9787876Z TRACE:: Dates: Start: 01/01/2021 End: 01/01/2022 Cash: ¤100,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2022-04-12T20:00:59.9802396Z TRACE:: BacktestingResultHandler(): Sample Period Set: 131.76
+2022-04-12T20:00:59.9808306Z TRACE:: Time.TradeableDates(): Security Count: 1
+2022-04-12T20:00:59.9839516Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2022-04-12T20:00:59.9851201Z TRACE:: JOB HANDLERS: 
+2022-04-12T20:00:59.9852564Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2022-04-12T20:00:59.9857681Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+2022-04-12T20:00:59.9858918Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2022-04-12T20:00:59.9860174Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2022-04-12T20:00:59.9862523Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2022-04-12T20:00:59.9863798Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2022-04-12T20:00:59.9865151Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2022-04-12T20:00:59.9866588Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+2022-04-12T20:01:00.0036271Z TRACE:: Event Name "Daily Sampling", scheduled to run at 1/1/2021 5:00:00 AM (UTC)...
+2022-04-12T20:01:00.0038807Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/1/2021 12:00:00 AM Stop: 1/1/2022 11:59:59 PM
+2022-04-12T20:01:00.0099246Z TRACE:: Debug: Launching analysis for 1824590122 with LEAN Engine v2.5.0.0
+2022-04-12T20:01:00.0373038Z TRACE:: Config.GetValue(): data-feed-max-work-weight - Using default value: 400
+2022-04-12T20:01:00.0375908Z TRACE:: Config.GetValue(): data-feed-workers-count - Using default value: 12
+2022-04-12T20:01:00.0377720Z TRACE:: WeightedWorkScheduler(): will use 12 workers and MaxWorkWeight is 400
+2022-04-12T20:01:00.0533088Z TRACE:: Config.GetValue(): show-missing-data-logs - Using default value: False
+2022-04-12T20:01:00.0946105Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed SPY,#0,SPY,Hour,TradeBar,Trade,Adjusted,OpenInterest,Internal
+2022-04-12T20:01:00.3795101Z TRACE:: Debug: 100000.0
+2022-04-12T20:01:00.3812065Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 48.27 from 48.2714982
+2022-04-12T20:01:00.4315327Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 48.08 from 48.0824991
+2022-04-12T20:01:00.4317550Z TRACE:: Debug: 100018.30002
+2022-04-12T20:01:00.4319557Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.73 from 49.7295009
+2022-04-12T20:01:00.4321335Z TRACE:: Debug: 99979.49998
+2022-04-12T20:01:00.4322986Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.98 from 47.9834991
+2022-04-12T20:01:00.4324557Z TRACE:: Debug: 100050.14995
+2022-04-12T20:01:00.4326135Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 50.10 from 50.1029982
+2022-04-12T20:01:00.4327859Z TRACE:: Debug: 100059.54999
+2022-04-12T20:01:00.4329687Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 50.31 from 50.3144991
+2022-04-12T20:01:00.4331201Z TRACE:: Debug: 99983.30009
+2022-04-12T20:01:00.4332691Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 48.94 from 48.942000900000004
+2022-04-12T20:01:00.4334324Z TRACE:: Debug: 99911.89997
+2022-04-12T20:01:00.4335770Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.87 from 47.8709991
+2022-04-12T20:01:00.4337551Z TRACE:: Debug: 100006.05004
+2022-04-12T20:01:00.4339549Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.08 from 49.0815
+2022-04-12T20:01:00.4341321Z TRACE:: Debug: 99847.24996
+2022-04-12T20:01:00.4343294Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.29 from 47.2949991
+2022-04-12T20:01:00.4344984Z TRACE:: Debug: 100025.44996
+2022-04-12T20:01:00.4346405Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.08 from 49.076999099999995
+2022-04-12T20:01:00.4347914Z TRACE:: Debug: 100133.45016
+2022-04-12T20:01:00.4349817Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 50.05 from 50.049000899999996
+2022-04-12T20:01:00.4351774Z TRACE:: Debug: 100053.15016
+2022-04-12T20:01:00.4355172Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.39 from 49.3920009
+2022-04-12T20:01:00.4356664Z TRACE:: Debug: 99985.34992
+2022-04-12T20:01:00.4357898Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 48.88 from 48.8834991
+2022-04-12T20:01:00.4359376Z TRACE:: Debug: 100056.20018
+2022-04-12T20:01:00.4361091Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.37 from 49.3740009
+2022-04-12T20:01:00.4362686Z TRACE:: Debug: 99912.00032
+2022-04-12T20:01:00.4364426Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 48.45 from 48.4470018
+2022-04-12T20:01:00.4365825Z TRACE:: Debug: 99780.00017
+2022-04-12T20:01:00.4367517Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.66 from 47.655000900000005
+2022-04-12T20:01:00.4369170Z TRACE:: Debug: 99333.60001
+2022-04-12T20:01:00.4371100Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.14 from 45.144
+2022-04-12T20:01:00.4372581Z TRACE:: Debug: 99234.15018
+2022-04-12T20:01:00.4374608Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 44.62 from 44.6175009
+2022-04-12T20:01:00.4376225Z TRACE:: Debug: 99429.45
+2022-04-12T20:01:00.4378001Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.59 from 45.594
+2022-04-12T20:01:00.4379415Z TRACE:: Debug: 99665.05038
+2022-04-12T20:01:00.4380967Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 46.71 from 46.7100018
+2022-04-12T20:01:00.4382614Z TRACE:: Debug: 98885.04998
+2022-04-12T20:01:00.4384190Z TRACE:: Debug: 98834.64956
+2022-04-12T20:01:00.4385806Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 42.98 from 42.9839982
+2022-04-12T20:01:00.4387397Z TRACE:: Debug: 98034.95
+2022-04-12T20:01:00.4388938Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 39.71 from 39.7125
+2022-04-12T20:01:00.4390966Z TRACE:: Debug: 98248.85
+2022-04-12T20:01:00.4392824Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 40.55 from 40.5495
+2022-04-12T20:01:00.4394413Z TRACE:: Debug: 98952.05024
+2022-04-12T20:01:00.4395991Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 43.19 from 43.1865009
+2022-04-12T20:01:00.4397663Z TRACE:: Debug: 98749.54974
+2022-04-12T20:01:00.4399610Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 42.46 from 42.4574991
+2022-04-12T20:01:00.4401102Z TRACE:: Debug: 98492.15026
+2022-04-12T20:01:00.4403003Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 41.57 from 41.5665009
+2022-04-12T20:01:00.4404538Z TRACE:: Debug: 98538.04999
+2022-04-12T20:01:00.4406267Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 41.72 from 41.7195
+2022-04-12T20:01:00.4407828Z TRACE:: Debug: 99288.44999
+2022-04-12T20:01:00.4409501Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 44.13 from 44.131499999999996
+2022-04-12T20:01:00.4411085Z TRACE:: Debug: 99053.54941
+2022-04-12T20:01:00.4412793Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 43.40 from 43.402498200000004
+2022-04-12T20:01:00.4414575Z TRACE:: Debug: 99778.04971
+2022-04-12T20:01:00.4417466Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.58 from 45.575999100000004
+2022-04-12T20:01:00.4419315Z TRACE:: Debug: 99853.9994
+2022-04-12T20:01:00.4421554Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.80 from 45.7964982
+2022-04-12T20:01:00.4426193Z TRACE:: Debug: 100018.80068
+2022-04-12T20:01:00.4433717Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 46.26 from 46.260001800000005
+2022-04-12T20:01:00.4435700Z TRACE:: Debug: 99820.79969
+2022-04-12T20:01:00.4438867Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.72 from 45.7199991
+2022-04-12T20:01:00.4442519Z TRACE:: Debug: 99989.09935
+2022-04-12T20:01:00.4445047Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 46.17 from 46.1654982
+2022-04-12T20:01:00.4448553Z TRACE:: Debug: 99814.09935
+2022-04-12T20:01:00.4451133Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.72 from 45.7154982
+2022-04-12T20:01:00.4452998Z TRACE:: Debug: 99909.50043
+2022-04-12T20:01:00.4455452Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 45.95 from 45.954000900000004
+2022-04-12T20:01:00.4457080Z TRACE:: Debug: 99315.6508
+2022-04-12T20:01:00.4458759Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 44.51 from 44.5095018
+2022-04-12T20:01:00.4460479Z TRACE:: Debug: 100278.9508
+2022-04-12T20:01:00.4462177Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2022-04-12T20:01:00.4462432Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 46.79 from 46.7910018
+2022-04-12T20:01:00.4465457Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2022-04-12T20:01:00.4465660Z TRACE:: Debug: 100458.35041
+2022-04-12T20:01:00.4468808Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.21 from 47.2050009
+2022-04-12T20:01:00.4470581Z TRACE:: Debug: 100482.34921
+2022-04-12T20:01:00.4472399Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.26 from 47.2589982
+2022-04-12T20:01:00.4474240Z TRACE:: Debug: 100506.95003
+2022-04-12T20:01:00.4476350Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 47.31 from 47.313
+2022-04-12T20:01:00.4477969Z TRACE:: Debug: 101183.15003
+2022-04-12T20:01:00.4480124Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 48.76 from 48.762
+2022-04-12T20:01:00.4481742Z TRACE:: Debug: 101368.05046
+2022-04-12T20:01:00.4483644Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.15 from 49.1490009
+2022-04-12T20:01:00.4485517Z TRACE:: Debug: 102041.24958
+2022-04-12T20:01:00.4485922Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2022-04-12T20:01:00.4487710Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 50.53 from 50.52599910000001
+2022-04-12T20:01:00.4492173Z TRACE:: Debug: 101573.24913
+2022-04-12T20:01:00.4493719Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.59 from 49.589998200000004
+2022-04-12T20:01:00.4495567Z TRACE:: Debug: 101301.84913
+2022-04-12T20:01:00.4499163Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.06 from 49.058998200000005
+2022-04-12T20:01:00.4502318Z TRACE:: Debug: 102258.29913
+2022-04-12T20:01:00.4504155Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 50.89 from 50.8904982
+2022-04-12T20:01:00.4505880Z TRACE:: Debug: 101610.30009
+2022-04-12T20:01:00.4507893Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 49.68 from 49.6755
+2022-04-12T20:01:00.4509798Z TRACE:: Debug: 102105.20107
+2022-04-12T20:01:00.4510124Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2022-04-12T20:01:00.4512537Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 50.58 from 50.5845018
+2022-04-12T20:01:00.4515379Z TRACE:: Debug: 102890.20107
+2022-04-12T20:01:00.4517440Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 52.00 from 51.9975018
+2022-04-12T20:01:00.4519229Z TRACE:: Debug: 102941.20005
+2022-04-12T20:01:00.4521337Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2022-04-12T20:01:00.4521408Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 52.09 from 52.0875
+2022-04-12T20:01:00.4523722Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2022-04-12T20:01:00.4524428Z TRACE:: Debug: 103494.99953
+2022-04-12T20:01:00.4527591Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 53.05 from 53.0459991
+2022-04-12T20:01:00.4528886Z TRACE:: Debug: 103396.95059
+2022-04-12T20:01:00.4530537Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 52.88 from 52.879500900000004
+2022-04-12T20:01:00.4532394Z TRACE:: Debug: 104520.14951
+2022-04-12T20:01:00.4534399Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 54.75 from 54.751499100000004
+2022-04-12T20:01:00.4535866Z TRACE:: Debug: 104896.90006
+2022-04-12T20:01:00.4537668Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 55.37 from 55.368
+2022-04-12T20:01:00.4539250Z TRACE:: Debug: 104745.70006
+2022-04-12T20:01:00.4541163Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 55.12 from 55.125
+2022-04-12T20:01:00.4542592Z TRACE:: Debug: 104762.79949
+2022-04-12T20:01:00.4544272Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 55.15 from 55.1519991
+2022-04-12T20:01:00.4545949Z TRACE:: Debug: 105969.20065
+2022-04-12T20:01:00.4547648Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 57.02 from 57.0240009
+2022-04-12T20:01:00.4549452Z TRACE:: Debug: 106470.69947
+2022-04-12T20:01:00.4551252Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 57.79 from 57.7889991
+2022-04-12T20:01:00.4552805Z TRACE:: Debug: 106716.70187
+2022-04-12T20:01:00.4554577Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.16 from 58.1580027
+2022-04-12T20:01:00.4556020Z TRACE:: Debug: 106033.50004
+2022-04-12T20:01:00.4557418Z TRACE:: Debug: 106699.99818
+2022-04-12T20:01:00.4559317Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.12 from 58.1174973
+2022-04-12T20:01:00.4560937Z TRACE:: Debug: 107210.30133
+2022-04-12T20:01:00.4563365Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.85 from 58.8465018
+2022-04-12T20:01:00.4565014Z TRACE:: Debug: 107187.89877
+2022-04-12T20:01:00.4566922Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.81 from 58.8149982
+2022-04-12T20:01:00.4568831Z TRACE:: Debug: 107418.65137
+2022-04-12T20:01:00.4572210Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.13 from 59.134501799999995
+2022-04-12T20:01:00.4573873Z TRACE:: Debug: 106521.05071
+2022-04-12T20:01:00.4575845Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 57.91 from 57.910500899999995
+2022-04-12T20:01:00.4576663Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2022-04-12T20:01:00.4577864Z TRACE:: Debug: 105462.44937
+2022-04-12T20:01:00.4581171Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.49 from 56.488499100000006
+2022-04-12T20:01:00.4581817Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2022-04-12T20:01:00.4582542Z TRACE:: Debug: 104439.04869
+2022-04-12T20:01:00.4586298Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2022-04-12T20:01:00.4587040Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 55.13 from 55.1339982
+2022-04-12T20:01:00.4589528Z TRACE:: Debug: 105832.84938
+2022-04-12T20:01:00.4591022Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.95 from 56.951999099999995
+2022-04-12T20:01:00.4592997Z TRACE:: Debug: 106844.34868
+2022-04-12T20:01:00.4595919Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.25 from 58.2524982
+2022-04-12T20:01:00.4598395Z TRACE:: Debug: 107809.94939
+2022-04-12T20:01:00.4604904Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.48 from 59.4764991
+2022-04-12T20:01:00.4607043Z TRACE:: Debug: 109390.34939
+2022-04-12T20:01:00.4611701Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.45 from 61.4519991
+2022-04-12T20:01:00.4613711Z TRACE:: Debug: 109598.40158
+2022-04-12T20:01:00.4616065Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.71 from 61.70850180000001
+2022-04-12T20:01:00.4618312Z TRACE:: Debug: 107940.79788
+2022-04-12T20:01:00.4621043Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.69 from 59.6924973
+2022-04-12T20:01:00.4622900Z TRACE:: Debug: 108484.55238
+2022-04-12T20:01:00.4624826Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.35 from 60.3450027
+2022-04-12T20:01:00.4626621Z TRACE:: Debug: 108735.34782
+2022-04-12T20:01:00.4629405Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.64 from 60.64199730000001
+2022-04-12T20:01:00.4632778Z TRACE:: Debug: 107957.65244
+2022-04-12T20:01:00.4635361Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.73 from 59.7330027
+2022-04-12T20:01:00.4636902Z TRACE:: Debug: 107942.04854
+2022-04-12T20:01:00.4639287Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.71 from 59.714998200000004
+2022-04-12T20:01:00.4641159Z TRACE:: Debug: 108854.49775
+2022-04-12T20:01:00.4642931Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.75 from 60.754497300000004
+2022-04-12T20:01:00.4644816Z TRACE:: Debug: 109122.49695
+2022-04-12T20:01:00.4646687Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.06 from 61.0559964
+2022-04-12T20:01:00.4648190Z TRACE:: Debug: 110155.24857
+2022-04-12T20:01:00.4650012Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 62.20 from 62.2034982
+2022-04-12T20:01:00.4650867Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2022-04-12T20:01:00.4652257Z TRACE:: Debug: 109417.24693
+2022-04-12T20:01:00.4656707Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.39 from 61.393496400000004
+2022-04-12T20:01:00.4658382Z TRACE:: Debug: 109720.20191
+2022-04-12T20:01:00.4660263Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.72 from 61.722001799999994
+2022-04-12T20:01:00.4662463Z TRACE:: Debug: 108859.20023
+2022-04-12T20:01:00.4664454Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.80 from 60.79950000000001
+2022-04-12T20:01:00.4666327Z TRACE:: Debug: 108548.95193
+2022-04-12T20:01:00.4668097Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.47 from 60.47100180000001
+2022-04-12T20:01:00.4669918Z TRACE:: Debug: 109150.94935
+2022-04-12T20:01:00.4672326Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.10 from 61.1009991
+2022-04-12T20:01:00.4673664Z TRACE:: Debug: 109742.55022
+2022-04-12T20:01:00.4675380Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.71 from 61.712999999999994
+2022-04-12T20:01:00.4676902Z TRACE:: Debug: 109848.15198
+2022-04-12T20:01:00.4678556Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.82 from 61.821001800000005
+2022-04-12T20:01:00.4680511Z TRACE:: Debug: 108241.70198
+2022-04-12T20:01:00.4682520Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.20 from 60.1965018
+2022-04-12T20:01:00.4684226Z TRACE:: Debug: 106491.20198
+2022-04-12T20:01:00.4686320Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.45 from 58.446001800000005
+2022-04-12T20:01:00.4687844Z TRACE:: Debug: 107332.94834
+2022-04-12T20:01:00.4689768Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.28 from 59.2784982
+2022-04-12T20:01:00.4691596Z TRACE:: Debug: 109205.15202
+2022-04-12T20:01:00.4693384Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.11 from 61.1100018
+2022-04-12T20:01:00.4695267Z TRACE:: Debug: 112018.40295
+2022-04-12T20:01:00.4696928Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 63.83 from 63.832502700000006
+2022-04-12T20:01:00.4698585Z TRACE:: Debug: 112676.40013
+2022-04-12T20:01:00.4701794Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 64.46 from 64.4625
+2022-04-12T20:01:00.4703192Z TRACE:: Debug: 112752.40203
+2022-04-12T20:01:00.4705347Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 64.53 from 64.5345018
+2022-04-12T20:01:00.4707068Z TRACE:: Debug: 111585.99819
+2022-04-12T20:01:00.4709092Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 63.44 from 63.4409982
+2022-04-12T20:01:00.4711000Z TRACE:: Debug: 113584.20304
+2022-04-12T20:01:00.4712775Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 65.30 from 65.29500270000001
+2022-04-12T20:01:00.4714345Z TRACE:: Debug: 115941.10206
+2022-04-12T20:01:00.4715923Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.46 from 67.4595018
+2022-04-12T20:01:00.4717347Z TRACE:: Debug: 115733.20305
+2022-04-12T20:01:00.4718936Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.27 from 67.2705027
+2022-04-12T20:01:00.4720504Z TRACE:: Debug: 116143.19905
+2022-04-12T20:01:00.4721998Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.64 from 67.63949910000001
+2022-04-12T20:01:00.4723350Z TRACE:: Debug: 116037.15309
+2022-04-12T20:01:00.4725703Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.55 from 67.54500270000001
+2022-04-12T20:01:00.4729395Z TRACE:: Debug: 116725.64799
+2022-04-12T20:01:00.4731364Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 68.15 from 68.1524982
+2022-04-12T20:01:00.4733104Z TRACE:: Debug: 117044.95417
+2022-04-12T20:01:00.4734905Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 68.43 from 68.4315036
+2022-04-12T20:01:00.4736683Z TRACE:: Debug: 116233.74689
+2022-04-12T20:01:00.4739066Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.73 from 67.7294973
+2022-04-12T20:01:00.4740610Z TRACE:: Debug: 115388.49689
+2022-04-12T20:01:00.4742340Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.00 from 67.0049973
+2022-04-12T20:01:00.4743819Z TRACE:: Debug: 113613.00219
+2022-04-12T20:01:00.4745559Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 65.50 from 65.49750180000001
+2022-04-12T20:01:00.4747110Z TRACE:: Debug: 113436.45112
+2022-04-12T20:01:00.4748699Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 65.35 from 65.3490009
+2022-04-12T20:01:00.4750220Z TRACE:: Debug: 112761.45112
+2022-04-12T20:01:00.4751930Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 64.79 from 64.7865009
+2022-04-12T20:01:00.4753383Z TRACE:: Debug: 114500.00221
+2022-04-12T20:01:00.4755215Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 66.22 from 66.2220018
+2022-04-12T20:01:00.4756833Z TRACE:: Debug: 114659.49781
+2022-04-12T20:01:00.4758440Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 66.35 from 66.3524982
+2022-04-12T20:01:00.4759901Z TRACE:: Debug: 111767.95336
+2022-04-12T20:01:00.4761576Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 64.01 from 64.0080027
+2022-04-12T20:01:00.4763080Z TRACE:: Debug: 106867.95336
+2022-04-12T20:01:00.4764850Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.07 from 60.0705027
+2022-04-12T20:01:00.4766304Z TRACE:: Debug: 106964.00223
+2022-04-12T20:01:00.4767999Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 60.15 from 60.1470018
+2022-04-12T20:01:00.4771250Z TRACE:: Debug: 109192.70451
+2022-04-12T20:01:00.4773436Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.91 from 61.9065036
+2022-04-12T20:01:00.4775494Z TRACE:: Debug: 111389.19991
+2022-04-12T20:01:00.4777303Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 63.63 from 63.625499999999995
+2022-04-12T20:01:00.4778676Z TRACE:: Debug: 111621.19643
+2022-04-12T20:01:00.4780385Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 63.81 from 63.805497300000006
+2022-04-12T20:01:00.4782308Z TRACE:: Debug: 109620.4976
+2022-04-12T20:01:00.4784122Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 62.27 from 62.266498199999994
+2022-04-12T20:01:00.4785688Z TRACE:: Debug: 102811.90114
+2022-04-12T20:01:00.4787544Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 57.07 from 57.0735009
+2022-04-12T20:01:00.4789301Z TRACE:: Debug: 102312.09876
+2022-04-12T20:01:00.4791029Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.70 from 56.6954991
+2022-04-12T20:01:00.4792545Z TRACE:: Debug: 101460.09996
+2022-04-12T20:01:00.4794655Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.06 from 56.0565
+2022-04-12T20:01:00.4796242Z TRACE:: Debug: 102833.44754
+2022-04-12T20:01:00.4797943Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 57.08 from 57.0779982
+2022-04-12T20:01:00.4799533Z TRACE:: Debug: 98075.44998
+2022-04-12T20:01:00.4800899Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 53.57 from 53.568000000000005
+2022-04-12T20:01:00.4802453Z TRACE:: Debug: 100892.15121
+2022-04-12T20:01:00.4804563Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 55.63 from 55.6290009
+2022-04-12T20:01:00.4806406Z TRACE:: Debug: 102404.94873
+2022-04-12T20:01:00.4807985Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.73 from 56.7269991
+2022-04-12T20:01:00.4809609Z TRACE:: Debug: 104536.20123
+2022-04-12T20:01:00.4811620Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 58.26 from 58.2615009
+2022-04-12T20:01:00.4813520Z TRACE:: Debug: 103282.50249
+2022-04-12T20:01:00.4815069Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 57.37 from 57.3660018
+2022-04-12T20:01:00.4816439Z TRACE:: Debug: 101485.45122
+2022-04-12T20:01:00.4818295Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.09 from 56.092500900000005
+2022-04-12T20:01:00.4819820Z TRACE:: Debug: 100672.64866
+2022-04-12T20:01:00.4821512Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 55.52 from 55.520999100000004
+2022-04-12T20:01:00.4822895Z TRACE:: Debug: 102536.69737
+2022-04-12T20:01:00.4824648Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 56.82 from 56.8214982
+2022-04-12T20:01:00.4826057Z TRACE:: Debug: 107067.20387
+2022-04-12T20:01:00.4827519Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 59.96 from 59.9580027
+2022-04-12T20:01:00.4829413Z TRACE:: Debug: 108685.05387
+2022-04-12T20:01:00.4830965Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 61.07 from 61.0695027
+2022-04-12T20:01:00.4832303Z TRACE:: Debug: 111371.24859
+2022-04-12T20:01:00.4833939Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 62.90 from 62.90099910000001
+2022-04-12T20:01:00.4835400Z TRACE:: Debug: 113412.80391
+2022-04-12T20:01:00.4836926Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 64.28 from 64.28250270000001
+2022-04-12T20:01:00.4839643Z TRACE:: Debug: 113111.29587
+2022-04-12T20:01:00.4841826Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 64.08 from 64.0799973
+2022-04-12T20:01:00.4844091Z TRACE:: Debug: 114832.54722
+2022-04-12T20:01:00.4846556Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 65.23 from 65.2274982
+2022-04-12T20:01:00.4847998Z TRACE:: Debug: 112336.94858
+2022-04-12T20:01:00.4850149Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 63.58 from 63.575999100000004
+2022-04-12T20:01:00.4851703Z TRACE:: Debug: 115241.35269
+2022-04-12T20:01:00.4853470Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 65.48 from 65.4840018
+2022-04-12T20:01:00.4855060Z TRACE:: Debug: 116179.75269
+2022-04-12T20:01:00.4856722Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 66.10 from 66.09600180000001
+2022-04-12T20:01:00.4858546Z TRACE:: Debug: 116985.94574
+2022-04-12T20:01:00.4870438Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 66.62 from 66.6179973
+2022-04-12T20:01:00.4871967Z TRACE:: Debug: 120387.94574
+2022-04-12T20:01:00.4873635Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 68.80 from 68.8049973
+2022-04-12T20:01:00.4875164Z TRACE:: Debug: 121981.25279
+2022-04-12T20:01:00.4876957Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 69.82 from 69.8220018
+2022-04-12T20:01:00.4878680Z TRACE:: Debug: 123067.55137
+2022-04-12T20:01:00.4881657Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 70.51 from 70.5105009
+2022-04-12T20:01:00.4883140Z TRACE:: Debug: 124561.89851
+2022-04-12T20:01:00.4885164Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 71.45 from 71.4509991
+2022-04-12T20:01:00.4886565Z TRACE:: Debug: 128190.70571
+2022-04-12T20:01:00.4888445Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 73.72 from 73.71900360000001
+2022-04-12T20:01:00.4889892Z TRACE:: Debug: 132620.44411
+2022-04-12T20:01:00.4891493Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.47 from 76.4684964
+2022-04-12T20:01:00.4892919Z TRACE:: Debug: 133080.34849
+2022-04-12T20:01:00.4894570Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.75 from 76.7519991
+2022-04-12T20:01:00.4896215Z TRACE:: Debug: 132565.84996
+2022-04-12T20:01:00.4897747Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.44 from 76.43700000000001
+2022-04-12T20:01:00.4899400Z TRACE:: Debug: 129975.84996
+2022-04-12T20:01:00.4900888Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 74.86 from 74.86200000000001
+2022-04-12T20:01:00.4902296Z TRACE:: Debug: 124544.80592
+2022-04-12T20:01:00.4903776Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 71.58 from 71.5815036
+2022-04-12T20:01:00.4905194Z TRACE:: Debug: 125512.29992
+2022-04-12T20:01:00.4906437Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 72.16 from 72.162
+2022-04-12T20:01:00.4907835Z TRACE:: Debug: 129355.2469
+2022-04-12T20:01:00.4910114Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 74.45 from 74.45249820000001
+2022-04-12T20:01:00.4912140Z TRACE:: Debug: 129317.24538
+2022-04-12T20:01:00.4914133Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 74.43 from 74.4299973
+2022-04-12T20:01:00.4915620Z TRACE:: Debug: 131933.55609
+2022-04-12T20:01:00.4917073Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 75.97 from 75.96900360000001
+2022-04-12T20:01:00.4918584Z TRACE:: Debug: 132087.55301
+2022-04-12T20:01:00.4920482Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.06 from 76.0590018
+2022-04-12T20:01:00.4922062Z TRACE:: Debug: 136094.30146
+2022-04-12T20:01:00.4923905Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 78.39 from 78.3855009
+Order Error: id: 157, Insufficient buying power to complete order (Value:783.9), Reason: Id: 157, Initial Margin: 870.95001, Free Margin: 226.0999
+2022-04-12T20:01:00.4925484Z TRACE:: Debug: 138395.2999
+2022-04-12T20:01:00.4927389Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 79.71 from 79.713
+Order Error: id: 158, Insufficient buying power to complete order (Value:797.1), Reason: Id: 158, Initial Margin: 885.7, Free Margin: 226.0999
+2022-04-12T20:01:00.4928930Z TRACE:: Debug: 133606.0999
+2022-04-12T20:01:00.4930532Z ERROR:: Order Error: id: 159, Insufficient buying power to complete order (Value:769.5), Reason: Id: 159, Initial Margin: 855, Free Margin: 226.0999
+2022-04-12T20:01:00.4933291Z TRACE:: Debug: 131788.69834
+2022-04-12T20:01:00.4934977Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 75.90 from 75.9014991
+Order Error: id: 160, Insufficient buying power to complete order (Value:759), Reason: Id: 160, Initial Margin: 843.34999, Free Margin: 226.0999
+2022-04-12T20:01:00.4936479Z TRACE:: Debug: 133005.49678
+2022-04-12T20:01:00.4937794Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.60 from 76.6034982
+Order Error: id: 161, Insufficient buying power to complete order (Value:766), Reason: Id: 161, Initial Margin: 851.14998, Free Margin: 226.0999
+2022-04-12T20:01:00.4939346Z TRACE:: Debug: 125681.29678
+2022-04-12T20:01:00.4940694Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 72.38 from 72.37799820000001
+Order Error: id: 162, Insufficient buying power to complete order (Value:723.8), Reason: Id: 162, Initial Margin: 804.19998, Free Margin: 226.0999
+2022-04-12T20:01:00.4942146Z TRACE:: Debug: 133473.50146
+2022-04-12T20:01:00.4943625Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.87 from 76.87350090000001
+Order Error: id: 163, Insufficient buying power to complete order (Value:768.7), Reason: Id: 163, Initial Margin: 854.15001, Free Margin: 226.0999
+2022-04-12T20:01:00.4945075Z TRACE:: Debug: 127748.30458
+2022-04-12T20:01:00.4946766Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 73.57 from 73.5705027
+Order Error: id: 164, Insufficient buying power to complete order (Value:735.7), Reason: Id: 164, Initial Margin: 817.45003, Free Margin: 226.0999
+2022-04-12T20:01:00.4948059Z TRACE:: Debug: 121204.10458
+2022-04-12T20:01:00.4950220Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 69.80 from 69.79500270000001
+Order Error: id: 165, Insufficient buying power to complete order (Value:698), Reason: Id: 165, Initial Margin: 775.50003, Free Margin: 226.0999
+2022-04-12T20:01:00.4952007Z TRACE:: Debug: 123481.70302
+2022-04-12T20:01:00.4953685Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 71.11 from 71.1090018
+Order Error: id: 166, Insufficient buying power to complete order (Value:711.1), Reason: Id: 166, Initial Margin: 790.10002, Free Margin: 226.0999
+2022-04-12T20:01:00.4955157Z TRACE:: Debug: 117288.50146
+2022-04-12T20:01:00.4956835Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.54 from 67.5360009
+Order Error: id: 167, Insufficient buying power to complete order (Value:675.4), Reason: Id: 167, Initial Margin: 750.40001, Free Margin: 226.0999
+2022-04-12T20:01:00.4958403Z TRACE:: Debug: 120026.29678
+2022-04-12T20:01:00.4960269Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 69.12 from 69.1154982
+Order Error: id: 168, Insufficient buying power to complete order (Value:691.2), Reason: Id: 168, Initial Margin: 767.94998, Free Margin: 226.0999
+2022-04-12T20:01:00.4962783Z TRACE:: Debug: 130829.30146
+2022-04-12T20:01:00.4964463Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 75.35 from 75.3480009
+Order Error: id: 169, Insufficient buying power to complete order (Value:753.5), Reason: Id: 169, Initial Margin: 837.20001, Free Margin: 226.0999
+2022-04-12T20:01:00.4965893Z TRACE:: Debug: 132646.70302
+2022-04-12T20:01:00.4967583Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.40 from 76.3965018
+Order Error: id: 170, Insufficient buying power to complete order (Value:764), Reason: Id: 170, Initial Margin: 848.85002, Free Margin: 226.0999
+2022-04-12T20:01:00.4969076Z TRACE:: Debug: 126929.30146
+2022-04-12T20:01:00.4970984Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 73.10 from 73.0980009
+Order Error: id: 171, Insufficient buying power to complete order (Value:731), Reason: Id: 171, Initial Margin: 812.20001, Free Margin: 226.0999
+2022-04-12T20:01:00.4972440Z TRACE:: Debug: 130852.70146
+2022-04-12T20:01:00.4973950Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 75.36 from 75.3615009
+Order Error: id: 172, Insufficient buying power to complete order (Value:753.6), Reason: Id: 172, Initial Margin: 837.35001, Free Margin: 226.0999
+2022-04-12T20:01:00.4975343Z TRACE:: Debug: 125236.70302
+2022-04-12T20:01:00.4977330Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 72.12 from 72.1215018
+Order Error: id: 173, Insufficient buying power to complete order (Value:721.2), Reason: Id: 173, Initial Margin: 801.35002, Free Margin: 226.0999
+2022-04-12T20:01:00.4979295Z TRACE:: Debug: 121516.0999
+2022-04-12T20:01:00.4981663Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 69.98 from 69.97500000000001
+Order Error: id: 174, Insufficient buying power to complete order (Value:699.8), Reason: Id: 174, Initial Margin: 777.5, Free Margin: 226.0999
+2022-04-12T20:01:00.4983232Z TRACE:: Debug: 129542.29522
+2022-04-12T20:01:00.4985170Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 74.61 from 74.60549730000001
+Order Error: id: 175, Insufficient buying power to complete order (Value:746.1), Reason: Id: 175, Initial Margin: 828.94997, Free Margin: 226.0999
+2022-04-12T20:01:00.4986727Z TRACE:: Debug: 119675.2999
+2022-04-12T20:01:00.4988635Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 68.91 from 68.913
+Order Error: id: 176, Insufficient buying power to complete order (Value:689.1), Reason: Id: 176, Initial Margin: 765.7, Free Margin: 226.0999
+2022-04-12T20:01:00.4990652Z TRACE:: Debug: 117850.10302
+2022-04-12T20:01:00.4992325Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 67.86 from 67.8600018
+Order Error: id: 177, Insufficient buying power to complete order (Value:678.6), Reason: Id: 177, Initial Margin: 754.00002, Free Margin: 226.0999
+2022-04-12T20:01:00.4994202Z TRACE:: Debug: 114332.29522
+2022-04-12T20:01:00.4995926Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 65.83 from 65.8304973
+Order Error: id: 178, Insufficient buying power to complete order (Value:658.3), Reason: Id: 178, Initial Margin: 731.44997, Free Margin: 226.0999
+2022-04-12T20:01:00.4997662Z TRACE:: Debug: 121960.70614
+2022-04-12T20:01:00.4999604Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 70.23 from 70.2315036
+Order Error: id: 179, Insufficient buying power to complete order (Value:702.3), Reason: Id: 179, Initial Margin: 780.35004, Free Margin: 226.0999
+2022-04-12T20:01:00.5001578Z TRACE:: Debug: 126305.2999
+2022-04-12T20:01:00.5003374Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 72.74 from 72.738
+Order Error: id: 180, Insufficient buying power to complete order (Value:727.4), Reason: Id: 180, Initial Margin: 808.2, Free Margin: 226.0999
+2022-04-12T20:01:00.5005026Z TRACE:: Debug: 129300.49678
+2022-04-12T20:01:00.5006928Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 74.47 from 74.4659982
+Order Error: id: 181, Insufficient buying power to complete order (Value:744.7), Reason: Id: 181, Initial Margin: 827.39998, Free Margin: 226.0999
+2022-04-12T20:01:00.5009354Z TRACE:: Debug: 135470.2999
+2022-04-12T20:01:00.5011068Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 78.03 from 78.0255
+Order Error: id: 182, Insufficient buying power to complete order (Value:780.3), Reason: Id: 182, Initial Margin: 866.95, Free Margin: 226.0999
+2022-04-12T20:01:00.5013301Z TRACE:: Debug: 133879.10458
+2022-04-12T20:01:00.5015102Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 77.11 from 77.10750270000001
+Order Error: id: 183, Insufficient buying power to complete order (Value:771.1), Reason: Id: 183, Initial Margin: 856.75003, Free Margin: 226.0999
+2022-04-12T20:01:00.5016573Z TRACE:: Debug: 133668.50146
+2022-04-12T20:01:00.5018349Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.99 from 76.98600090000001
+Order Error: id: 184, Insufficient buying power to complete order (Value:769.9), Reason: Id: 184, Initial Margin: 855.40001, Free Margin: 226.0999
+2022-04-12T20:01:00.5019475Z TRACE:: Debug: 132420.49678
+2022-04-12T20:01:00.5021203Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 76.27 from 76.2659982
+Order Error: id: 185, Insufficient buying power to complete order (Value:762.7), Reason: Id: 185, Initial Margin: 847.39998, Free Margin: 226.0999
+2022-04-12T20:01:00.5022731Z TRACE:: Debug: 129963.50146
+2022-04-12T20:01:00.5024443Z ERROR:: Warning: To meet brokerage precision requirements, order StopPrice was rounded to 74.85 from 74.8485009
+Order Error: id: 186, Insufficient buying power to complete order (Value:748.5), Reason: Id: 186, Initial Margin: 831.65001, Free Margin: 226.0999
+2022-04-12T20:01:00.5026124Z TRACE:: Debug: Algorithm Id:(1824590122) completed in 0.46 seconds at 1k data points per second. Processing total of 621 data points.
+2022-04-12T20:01:00.5027863Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1824590122-log.txt
+2022-04-12T20:01:00.5029158Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2022-04-12T20:01:00.6737437Z TRACE:: 
+STATISTICS:: Total Trades 156
+STATISTICS:: Average Win 0%
+STATISTICS:: Average Loss 0%
+STATISTICS:: Compounding Annual Return 29.964%
+STATISTICS:: Drawdown 17.400%
+STATISTICS:: Expectancy 0
+STATISTICS:: Net Profit 29.964%
+STATISTICS:: Sharpe Ratio 0.982
+STATISTICS:: Probabilistic Sharpe Ratio 44.422%
+STATISTICS:: Loss Rate 0%
+STATISTICS:: Win Rate 0%
+STATISTICS:: Profit-Loss Ratio 0
+STATISTICS:: Alpha 0.233
+STATISTICS:: Beta -0.009
+STATISTICS:: Annual Standard Deviation 0.237
+STATISTICS:: Annual Variance 0.056
+STATISTICS:: Information Ratio 0.762
+STATISTICS:: Tracking Error 0.246
+STATISTICS:: Treynor Ratio -25.685
+STATISTICS:: Total Fees $0.00
+STATISTICS:: Estimated Strategy Capacity $0
+STATISTICS:: Lowest Capacity Asset TQQQ.YahooData 2S
+STATISTICS:: Fitness Score 0.002
+STATISTICS:: Kelly Criterion Estimate 0
+STATISTICS:: Kelly Criterion Probability Value 0
+STATISTICS:: Sortino Ratio 1.099
+STATISTICS:: Return Over Maximum Drawdown 1.723
+STATISTICS:: Portfolio Turnover 0.003
+STATISTICS:: Total Insights Generated 0
+STATISTICS:: Total Insights Closed 0
+STATISTICS:: Total Insights Analysis Completed 0
+STATISTICS:: Long Insight Count 0
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $0
+STATISTICS:: Total Accumulated Estimated Alpha Value $0
+STATISTICS:: Mean Population Estimated Insight Value $0
+STATISTICS:: Mean Population Direction 0%
+STATISTICS:: Mean Population Magnitude 0%
+STATISTICS:: Rolling Averaged Population Direction 0%
+STATISTICS:: Rolling Averaged Population Magnitude 0%
+STATISTICS:: OrderListHash a28c6c3faf28896594bba82b41a4010e
+2022-04-12T20:01:00.6742339Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2022-04-12T20:01:00.6746882Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2022-04-12T20:01:00.6749086Z TRACE:: Engine.Run(): Disposing of setup handler...
+2022-04-12T20:01:00.6755187Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2022-04-12T20:01:00.6759358Z TRACE:: Engine.Main(): Packet removed from queue: 1824590122
+2022-04-12T20:01:00.6761654Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2022-04-12T20:01:00.6763607Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2022-04-12T20:01:00.6765892Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2022-04-12T20:01:00.6803617Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
