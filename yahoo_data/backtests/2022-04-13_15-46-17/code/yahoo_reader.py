@@ -12,7 +12,7 @@ class YahooData(PythonData):
 
         # The source folder depends on the directory initialized in lean-cli
         # https://www.quantconnect.com/docs/v2/lean-cli/tutorials/local-data/importing-custom-data
-        source = Path(Globals.DataFolder)/'yahoo'/fname
+        source = Path(Globals.DataFolder) / 'yahoo' / fname
 
         # The subscription method is LocalFile in this case
         return SubscriptionDataSource(source.as_posix(), SubscriptionTransportMedium.LocalFile)
@@ -31,8 +31,7 @@ class YahooData(PythonData):
 
             # If value is zero, return None
             value = data[4]
-            if value == 0:
-                return None
+            if value == 0: return None
 
             equity.Time = datetime.strptime(data[0], "%Y-%m-%d")
             equity.EndTime = equity.Time + timedelta(days=1)

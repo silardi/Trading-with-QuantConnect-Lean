@@ -4,8 +4,8 @@ from yahoo_reader import YahooData
 
 class FirstAlgorithm(QCAlgorithm):
     def Initialize(self):
-        self.SetStartDate(2021, 1, 1)  # Set Start Date
-        self.SetEndDate(2021, 2, 1)  # Set End Date
+        self.SetStartDate(2013, 10, 7)  # Set Start Date
+        self.SetEndDate(2013, 10, 11)  # Set End Date
         self.SetCash(100000)  # Set Strategy Cash
 
         # self.AddEquity("SPY", Resolution.Minute)

@@ -1,10 +1,7 @@
 import pandas as pd
 from pathlib import Path
 from datetime import timedelta
-# from yahoo_fin.stock_info import get_data
-import yahoo_fin
 from yahoo_fin.stock_info import get_data
-
 
 data_folder = '../data'
 yahoo_dir = './yahoo'
@@ -13,7 +10,7 @@ yahoo_dir = './yahoo'
 def get_yahoo_ticker(ticker, folder, start_date, end_date):
 
     # check if the ticker file exists
-    fname = ticker.lower() + '.csv'
+    fname = ticker.upper() + '.csv'
     path = Path(folder)/fname
 
     # get the dates if the file aready exists
@@ -34,8 +31,7 @@ def get_yahoo_ticker(ticker, folder, start_date, end_date):
         # try to retrieve the data from Yahoo_fin
         try:
             delta = timedelta(days=3)
-            df = get_data(ticker, start_date=start_date -
-                          delta, end_date=end_date+delta)
+            df = get_data(ticker, start_date=start_date-delta, end_date=end_date+delta)
             df.to_csv(path)
             print(f'Retrieving ticker: {ticker}')
 
@@ -67,7 +63,6 @@ def get_yahoo_data(tickers: list, start_date, end_date):
     # create a list to store all loaded tickers
     loaded_tickers = []
     for ticker in tickers:
-        loaded_tickers.append(get_yahoo_ticker(
-            ticker, folder, start_date, end_date))
+        loaded_tickers.append(get_yahoo_ticker(ticker, folder, start_date, end_date))
 
     return [ticker for ticker in loaded_tickers if ticker is not None]
