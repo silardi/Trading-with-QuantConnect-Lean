@@ -1,0 +1,92 @@
+2022-04-14T16:30:16.3746584Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2022-04-14T16:30:16.4538314Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2022-04-14T16:30:16.4540722Z TRACE:: Config.Get(): Configuration key not found. Key: cache-location - Using default value: /Lean/Data
+2022-04-14T16:30:16.4543660Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: DESKTOP-F4R9TNG
+2022-04-14T16:30:16.4574296Z TRACE:: Engine.Main(): Started 4:30 PM
+2022-04-14T16:30:16.4590585Z TRACE:: Config.Get(): Configuration key not found. Key: lean-manager-type - Using default value: LocalLeanManager
+2022-04-14T16:30:16.4695988Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2022-04-14T16:30:16.5208240Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-capacity - Using default value: 120
+2022-04-14T16:30:16.5210597Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-time-interval-minutes - Using default value: 1440
+2022-04-14T16:30:16.5212079Z TRACE:: Config.GetValue(): scheduled-event-leaky-bucket-refill-amount - Using default value: 18
+2022-04-14T16:30:16.5250779Z TRACE:: Config.Get(): Configuration key not found. Key: job-organization-id - Using default value: 
+2022-04-14T16:30:16.5255791Z TRACE:: Config.Get(): Configuration key not found. Key: data-permission-manager - Using default value: DataPermissionManager
+2022-04-14T16:30:16.5313125Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2022-04-14T16:30:16.5321158Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 20
+2022-04-14T16:30:16.5383304Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2022-04-14T16:30:16.7264756Z TRACE:: Config.GetValue(): algorithm-creation-timeout - Using default value: 90
+2022-04-14T16:30:16.7290042Z TRACE:: PythonInitializer.Initialize(): start...
+2022-04-14T16:30:17.4092461Z TRACE:: PythonInitializer.Initialize(): ended
+2022-04-14T16:30:17.4114808Z TRACE:: AlgorithmPythonWrapper(): Python version 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:25:33) 
+[GCC 7.3.0]: Importing python module main
+2022-04-14T16:30:18.7538979Z ERROR:: Loader.TryCreatePythonAlgorithm():  System.Exception: AlgorithmPythonWrapper(): ModuleNotFoundError : No module named 'yahoo_fin'
+  at <module>
+    from yahoo_fin.stock_info import get_data
+  File "main.py" in yahoo_loader.py: line 4
+ ModuleNotFoundError : No module named 'yahoo_fin'
+   at QuantConnect.AlgorithmFactory.Python.Wrappers.AlgorithmPythonWrapper..ctor(String moduleName) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/AlgorithmFactory/Python/Wrappers/AlgorithmPythonWrapper.cs:line 146
+   at QuantConnect.AlgorithmFactory.Loader.TryCreatePythonAlgorithm(String assemblyPath, IAlgorithm& algorithmInstance, String& errorMessage) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/AlgorithmFactory/Loader.cs:line 173
+2022-04-14T16:30:18.7546192Z ERROR:: Engine.Run():  QuantConnect.Lean.Engine.Setup.AlgorithmSetupException: During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): ModuleNotFoundError : No module named 'yahoo_fin'
+  at <module>
+    from yahoo_fin.stock_info import get_data
+  File "main.py" in yahoo_loader.py: line 4
+ ModuleNotFoundError : No module named 'yahoo_fin'
+   at QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler.CreateAlgorithmInstance(AlgorithmNodePacket algorithmNodePacket, String assemblyPath) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Setup/BacktestingSetupHandler.cs:line 104
+   at QuantConnect.Lean.Engine.Engine.Run(AlgorithmNodePacket job, AlgorithmManager manager, String assemblyPath, WorkerThread workerThread) in /LeanCloud/CI.Builder/bin/Debug/src/QuantConnect/Lean/Engine/Engine.cs:line 117
+2022-04-14T16:30:18.7550421Z TRACE:: JOB HANDLERS: 
+2022-04-14T16:30:18.7552244Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2022-04-14T16:30:18.7553439Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+2022-04-14T16:30:18.7554927Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2022-04-14T16:30:18.7556499Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2022-04-14T16:30:18.7557824Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2022-04-14T16:30:18.7559145Z TRACE::          Alpha:        QuantConnect.Lean.Engine.Alphas.DefaultAlphaHandler
+2022-04-14T16:30:18.7560726Z TRACE::          ObjectStore:  QuantConnect.Lean.Engine.Storage.LocalObjectStore
+2022-04-14T16:30:18.7566101Z TRACE:: DefaultAlphaHandler.Exit(): Exiting...
+2022-04-14T16:30:18.7570579Z TRACE:: DefaultAlphaHandler.Exit(): Ended
+2022-04-14T16:30:18.7574060Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2022-04-14T16:30:18.7581639Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2022-04-14T16:30:18.7609948Z TRACE:: StopSafely(): waiting for 'Result Thread' thread to stop...
+2022-04-14T16:30:18.7624005Z ERROR:: Algorithm.Initialize() Error: During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): ModuleNotFoundError : No module named 'yahoo_fin'
+  at <module>
+    from yahoo_fin.stock_info import get_data
+  File "main.py" in yahoo_loader.py: line 4
+ ModuleNotFoundError : No module named 'yahoo_fin' Stack Trace: During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): ModuleNotFoundError : No module named 'yahoo_fin'
+  at <module>
+    from yahoo_fin.stock_info import get_data
+  File "main.py" in yahoo_loader.py: line 4
+ ModuleNotFoundError : No module named 'yahoo_fin'
+ During the algorithm initialization, the following exception has occurred: Loader.TryCreatePythonAlgorithm(): Unable to import python module /LeanCLI/main.py. AlgorithmPythonWrapper(): ModuleNotFoundError : No module named 'yahoo_fin'
+  at <module>
+    from yahoo_fin.stock_info import get_data
+  File "main.py" in yahoo_loader.py: line 4
+ ModuleNotFoundError : No module named 'yahoo_fin'
+2022-04-14T16:30:18.7625700Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1973874005-log.txt
+2022-04-14T16:30:18.7627325Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2022-04-14T16:30:18.8157893Z TRACE:: 
+STATISTICS:: Fitness Score 0
+STATISTICS:: Kelly Criterion Estimate 0
+STATISTICS:: Kelly Criterion Probability Value 0
+STATISTICS:: Sortino Ratio 0
+STATISTICS:: Return Over Maximum Drawdown 0
+STATISTICS:: Portfolio Turnover 0
+STATISTICS:: Total Insights Generated 0
+STATISTICS:: Total Insights Closed 0
+STATISTICS:: Total Insights Analysis Completed 0
+STATISTICS:: Long Insight Count 0
+STATISTICS:: Short Insight Count 0
+STATISTICS:: Long/Short Ratio 100%
+STATISTICS:: Estimated Monthly Alpha Value $0
+STATISTICS:: Total Accumulated Estimated Alpha Value $0
+STATISTICS:: Mean Population Estimated Insight Value $0
+STATISTICS:: Mean Population Direction 0%
+STATISTICS:: Mean Population Magnitude 0%
+STATISTICS:: Rolling Averaged Population Direction 0%
+STATISTICS:: Rolling Averaged Population Magnitude 0%
+STATISTICS:: OrderListHash d41d8cd98f00b204e9800998ecf8427e
+2022-04-14T16:30:18.8159579Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2022-04-14T16:30:18.8163254Z TRACE:: Engine.Run(): Disposing of setup handler...
+2022-04-14T16:30:18.8165222Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2022-04-14T16:30:18.8171599Z TRACE:: Engine.Main(): Packet removed from queue: 1973874005
+2022-04-14T16:30:18.8173478Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2022-04-14T16:30:18.8175549Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2022-04-14T16:30:18.8178330Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2022-04-14T16:30:18.8182379Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.
