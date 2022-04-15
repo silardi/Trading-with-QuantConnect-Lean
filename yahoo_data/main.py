@@ -6,6 +6,9 @@ from yahoo_loader import *
 
 class FirstAlgorithm(QCAlgorithm):
     def Initialize(self):
+
+        get_yahoo_data('TQQQ', '2021-01-01', '2022-01-01')
+
         self.SetStartDate(2021, 1, 1)  # Set Start Date
         self.SetEndDate(2021, 2, 1)  # Set End Date
         self.SetCash(100000)  # Set Strategy Cash
@@ -14,8 +17,6 @@ class FirstAlgorithm(QCAlgorithm):
         # self.symbol = self.AddData(YahooData, "SPY", Resolution.Daily).Symbol
         self.symbol = self.AddData(YahooData, "TQQQ", Resolution.Daily).Symbol
         # self.symbol = self.AddData(YahooData, "UDOW", Resolution.Daily).Symbol
-
-        get_yahoo_data('TQQQ', '2021-01-01', '2022-01-01')
 
     def OnData(self, data):
         """OnData event is the primary entry point for your algorithm. Each new data point will be pumped in here.

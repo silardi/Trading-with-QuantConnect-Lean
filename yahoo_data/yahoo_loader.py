@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 from datetime import timedelta
 from yahoo_fin.stock_info import get_data
-# import yfinance as yf
+from AlgorithmImports import *
 
 
 def get_yahoo_ticker(ticker, folder, start_date, end_date):
@@ -47,14 +47,11 @@ def get_yahoo_ticker(ticker, folder, start_date, end_date):
 def get_yahoo_data(tickers: list, start_date, end_date):
     """Get a list of tickers from yahoo and save them in the Default LEAN data directory"""
 
-    data_folder = '../data'
-    yahoo_dir = './yahoo'
-
     # transform tickers into a list (if it is not)
     tickers = tickers if isinstance(tickers, list) else [tickers]
 
     # check the directory
-    folder = Path(data_folder)/yahoo_dir
+    folder = Path(Globals.DataFolder)/'yahoo'
 
     if not folder.exists():
         folder.mkdir()
